@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "it.iamvalentina/valentina",
+  "description": "IamValentina, AI customer support for small online shops: tickets, Shopify orders, leads, inventory.",
+  "version": "0.2.0",
+  "websiteUrl": "https://iamvalentina.it",
+  "repository": {
+    "url": "https://github.com/Pisedidiredetto/iamvalentina-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iamvalentina.it/mcp"
+    }
+  ]
+}
